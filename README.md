@@ -17,6 +17,13 @@ Personal collection of reusable Claude Code skills, prompts, hooks, and agents.
 | `obsidian-memory` | Save session notes to Obsidian vault at the end of every Claude interaction |
 | `vsol-cowork-provision` | Step-by-step guide to provision a new Sunny Cowork customer onto Claude Code CLI |
 
+## Agents
+
+| Agent | Description |
+|-------|-------------|
+| `cowork-provisioner` | Actively provisions a new Sunny Cowork customer machine end-to-end |
+
 ## Setup
 
 Skills are symlinked to `~/.claude/skills/` for global access in any project.
+Agents are symlinked to `~/.claude/agents/` for global access.
