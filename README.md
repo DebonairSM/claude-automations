@@ -1,10 +1,11 @@
 # Claude Automations
 
-Personal collection of reusable Claude Code skills, prompts, and hooks.
+Personal collection of reusable Claude Code skills, prompts, hooks, and agents.
 
 ## Structure
 
 - `skills/` — Claude Code skills (invokable via the Skill tool)
+- `agents/` — Custom subagent definitions (spawned via the Agent tool)
 - `prompts/` — Reusable prompt templates
 - `hooks/` — Claude Code hook scripts
 
