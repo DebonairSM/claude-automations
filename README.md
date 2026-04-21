@@ -14,6 +14,8 @@ Personal collection of reusable Claude Code skills, prompts, hooks, and agents.
 | Skill | Description |
 |-------|-------------|
 | `windows-performance-tuning` | Diagnose and optimize Windows PC performance |
+| `obsidian-memory` | Save session notes to Obsidian vault at the end of every Claude interaction |
+| `vsol-cowork-provision` | Step-by-step guide to provision a new Sunny Cowork customer onto Claude Code CLI |
 
 ## Setup
 

@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx --version)",
+      "Bash(uvx --version)",
+      "Bash(winget list *)",
+      "Bash(winget upgrade *)",
+      "Read(//c/Users/RonBandeira/Projects/nicholas/**)",
+      "Read(//c/Users/RonBandeira/.config/**)",
+      "Read(//c/Users/RonBandeira/AppData/Roaming/obsidian/**)",
+      "Bash(mkdir -p \"C:/Users/RonBandeira/Documents/Obsidian - Ron\")",
+      "Bash(mkdir -p \"C:/Users/RonBandeira/Documents/Obsidian - Celiane\")",
+      "Bash(mkdir -p \"C:/Users/RonBandeira/Documents/Obsidian - Nicholas\")",
+      "Bash(cp -r \"C:/Users/RonBandeira/Documents/Obsidian Vault/.\" \"C:/Users/RonBandeira/Documents/Obsidian - Ron/\")",
+      "Bash(mkdir -p \"C:/Users/RonBandeira/Documents/Obsidian - Celiane/.obsidian\")",
+      "Bash(mkdir -p \"C:/Users/RonBandeira/Documents/Obsidian - Nicholas/.obsidian\")",
+      "Bash(mkdir -p \"C:/Users/RonBandeira/Documents/Obsidian - Family\")",
+      "Bash(mkdir -p \"C:/Users/RonBandeira/Documents/Obsidian - Laura\")",
+      "Bash(mkdir -p \"C:/Users/RonBandeira/Documents/Obsidian - Isabel\")",
+      "Bash(mkdir -p \"C:/Users/RonBandeira/Documents/Obsidian - Family/.obsidian\")",
+      "Bash(mkdir -p \"C:/Users/RonBandeira/Documents/Obsidian - Laura/.obsidian\")",
+      "Bash(mkdir -p \"C:/Users/RonBandeira/Documents/Obsidian - Isabel/.obsidian\")",
+      "Bash(cmd.exe *)",
+      "Bash(git *)",
+      "Skill(commit-commands:commit)"
+    ]
+  }
+}
