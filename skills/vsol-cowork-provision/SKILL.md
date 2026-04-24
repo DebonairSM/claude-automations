@@ -22,7 +22,7 @@ Add this to your personal `~/.claude/settings.json` once — it works in every s
   "mcpServers": {
     "vsol-skills": {
       "type": "http",
-      "url": "https://mcp-server-jet.vercel.app/api/mcp",
+      "url": "https://mcp.vsol.software",
       "headers": { "x-api-key": "<MCP_API_KEY>" }
     }
   }
@@ -353,7 +353,7 @@ Test-Path "<ADMIN_DRIVE>:\admin\git"   # must return False
 
 > **Why this matters:** The `claude-automations` repo contains vsol's proprietary skills and agent definitions. It must not remain on customer machines between sessions.
 
-> **Preferred:** Use the MCP server at `https://mcp-server-jet.vercel.app/api/mcp` instead of cloning. If Option A in Phase 0 is configured, this cleanup step is never needed.
+> **Preferred:** Use the MCP server at `https://mcp.vsol.software` instead of cloning. If Option A in Phase 0 is configured, this cleanup step is never needed.
 
 ---
 

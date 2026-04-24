@@ -35,7 +35,7 @@ Personal collection of reusable Claude Code skills, prompts, hooks, and agents.
 2. Add environment variables in Vercel project settings:
    - `MCP_API_KEY` — a long random string (shared secret for team members)
    - `GITHUB_TOKEN` — a GitHub PAT with `repo:read` scope (required if repo is private)
-3. Deploy. The MCP endpoint will be at `https://mcp-server-jet.vercel.app/api/mcp`
+3. Deploy. The MCP endpoint will be at `https://mcp.vsol.software`
 
 ### Connect Claude Code to the server
 
@@ -46,7 +46,7 @@ Add to `~/.claude/settings.json`:
   "mcpServers": {
     "vsol-skills": {
       "type": "http",
-      "url": "https://mcp-server-jet.vercel.app/api/mcp",
+      "url": "https://mcp.vsol.software",
       "headers": {
         "x-api-key": "<MCP_API_KEY>"
       }

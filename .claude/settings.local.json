@@ -22,7 +22,32 @@
       "Bash(mkdir -p \"C:/Users/RonBandeira/Documents/Obsidian - Isabel/.obsidian\")",
       "Bash(cmd.exe *)",
       "Bash(git *)",
-      "Skill(commit-commands:commit)"
+      "Skill(commit-commands:commit)",
+      "Skill(update-config)",
+      "PowerShell($json = Get-Content 'C:\\\\Users\\\\RonBandeira\\\\.claude\\\\settings.json' -Raw | ConvertFrom-Json; $json.hooks.Stop[0].hooks[0].command)",
+      "Bash(powershell.exe *)",
+      "Bash(npm --version)",
+      "Bash(npm info *)",
+      "Bash(npm pack *)",
+      "Bash(node -e \"const d=JSON.parse\\(require\\('fs'\\).readFileSync\\('/dev/stdin','utf8'\\)\\); console.log\\('exports:', JSON.stringify\\(d.exports||d.main, null,2\\)\\); console.log\\('peerDeps:', JSON.stringify\\(d.peerDependencies,null,2\\)\\)\")",
+      "Bash(node -e \"const d=require\\('/tmp/mcp-adapter-info.json'\\); console.log\\('main:', d.main\\); console.log\\('peerDeps:', JSON.stringify\\(d.peerDependencies,null,2\\)\\); console.log\\('deps:', JSON.stringify\\(d.dependencies,null,2\\)\\)\")",
+      "Bash(node -e \"const d=JSON.parse\\(require\\('fs'\\).readFileSync\\('/dev/fd/0','utf8'\\)\\); console.log\\(JSON.stringify\\({main:d.main,exports:d.exports,peerDeps:d.peerDependencies,deps:d.dependencies},null,2\\)\\)\")",
+      "Read(//c/Users/RonBandeira/Projects/_tmp_check/node_modules/@vercel/mcp-adapter//**)",
+      "Read(//c/Users/RonBandeira/Projects/_tmp_check/node_modules/@vercel/mcp-adapter/**)",
+      "Read(//c/Users/RonBandeira/Projects/_tmp_check/**)",
+      "Bash(npm install *)",
+      "PowerShell(New-Item *)",
+      "PowerShell(Get-Item *)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(vercel --version)",
+      "Bash(vercel whoami *)",
+      "Bash(vercel teams *)",
+      "Bash(vercel *)",
+      "Bash(node *)",
+      "Bash(curl -s -X POST https://mcp.vsol.software -H 'Content-Type: application/json' -H 'x-api-key: *' -d '*')",
+      "Bash(curl *)",
+      "Bash(nslookup mcp.vsol.software)"
     ]
   }
 }
